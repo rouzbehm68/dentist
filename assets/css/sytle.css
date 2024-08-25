@@ -1,0 +1,28 @@
+
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url('assets/fonts/iransansdnweb.ttf');
+    src: url('assets/fonts/iransans/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/IRANSansWeb(FaNum)_Medium') format('woff2'),
+         url('assets/fonts/IRANSansWeb(FaNum)_Medium') format('woff'),
+         url('assets/fonts/IRANSansWeb(FaNum)_Medium') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'IRANSans', sans-serif !important;
+}
+
+
+.link-to{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .mobile-none{
+        display: none !important;
+    }
+}
