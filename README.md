@@ -2,6 +2,9 @@
 
 A modern and responsive Bootstrap template for building professional websites with ease.
 
+**For preview:** [Click here to view the demo](https://rouzbehm68.github.io/dentist)
+
+
 ## Table of Contents
 
 - [Introduction](#introduction)
