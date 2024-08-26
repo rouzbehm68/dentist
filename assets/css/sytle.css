@@ -21,7 +21,7 @@ body {
     font-weight: 100;
 }
 .section-home{
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     background-image: url('../images/slide-home.jpeg');
     background-attachment: fixed;
@@ -63,11 +63,24 @@ body {
     font-size: 2rem;
     position: absolute;
     top: 30%;
-    color: rgb(0, 128, 255);
+    color: white;
     font-weight: 400;
     animation: textintro 3s forwards;
 }
-
+.section-two{
+    height: 75vh;
+}
+.frame-icon{
+    color: #4e7b74;
+    background-color: transparent;
+    border: solid 1px #4e7b74;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 15%;
+    place-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
 @keyframes textintro {
     0%{right: -55%;}
     100%{right: 5%;}
@@ -94,7 +107,7 @@ body {
         font-size: 1rem;
         position: absolute;
         top: 20%;
-        color: rgb(0, 128, 255);
+        color: white;
         font-weight: 400;
         animation: textintro 3s forwards;
     }
