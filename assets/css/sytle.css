@@ -70,6 +70,7 @@ body,a,p,div,h1,h2,h3,h4,h5,h6 {
 }
 .section-two{
     height: auto;
+    animation: wlxom 2s forwards;
 }
 .frame-icon{
     color: #4e7b74;
@@ -85,6 +86,20 @@ body,a,p,div,h1,h2,h3,h4,h5,h6 {
 .text-section{
     padding: 2% 10%;
 }
+.txt-left{
+    text-align: left;
+}
+.section-three{
+    height: 60%;
+}
+.image-section{
+    position: relative;
+    width: 70%;
+    animation: imasc 5s infinite;
+
+}
+
+/*just animation*/
 @keyframes textintro {
     0%{right: -55%;}
     100%{right: 5%;}
@@ -93,6 +108,34 @@ body,a,p,div,h1,h2,h3,h4,h5,h6 {
     0%{left: -55%;}
     100%{left: 20%;}
 }
+@keyframes wlxom {
+    0%{scale: 0;}
+    100%{scale: 1; }
+}
+@keyframes imasc {
+    0%{
+        left: 0%;
+        top: 0%;
+    }
+
+    25%{
+        left: 1%;
+        top: -1%;
+    }
+    50%{
+        left: 2%;
+        top: -2%;
+    }
+    75%{
+        left: 1%;
+        top: -1%;
+    }
+    100%{
+        left: 0%;
+        top: 0%;
+    }
+}
+/* responsive mobile */
 @media (max-width: 768px) {
     body,a,p,div,h1,h2,h3,h4,h5,h6 {
         font-family: 'IRANSans', sans-serif !important;
