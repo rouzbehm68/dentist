@@ -18,8 +18,17 @@ body {
 .link-to{
     color: white;
     text-decoration: none;
+    font-weight: 100;
 }
-
+.section-home{
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../images/slide-home.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 @media (max-width: 768px) {
     .mobile-none{
