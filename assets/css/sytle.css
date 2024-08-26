@@ -68,7 +68,7 @@ body,a,p,div,h1,h2,h3,h4,h5,h6 {
     animation: textintro 3s forwards;
 }
 .section-two{
-    height: 75vh;
+    height: auto;
 }
 .frame-icon{
     color: #4e7b74;
@@ -82,8 +82,7 @@ body,a,p,div,h1,h2,h3,h4,h5,h6 {
     font-size: 1.5rem;
 }
 .text-section{
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 2% 10%;
 }
 @keyframes textintro {
     0%{right: -55%;}
