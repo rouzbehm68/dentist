@@ -47,6 +47,7 @@ body,a,p,div,h1,h2,h3,h4,h5,h6 {
     margin-top: 2% !important;
 }
 .index-up{
+    font-size: 1.2rem;
     position: fixed;
     top: 0;
     left: 0;
