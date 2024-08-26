@@ -39,10 +39,18 @@ body {
     position: absolute;
     top: 40%;
     right: 5%;
+    animation: boxintro 3s forwards;
+
 }
 .btn-request{
     align-self: center;
     margin-top: 2% !important;
+}
+.index-up{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
 }
 .input-request{
     padding: 4%;
@@ -51,6 +59,23 @@ body {
     margin-bottom: 1%;
     border: none;
 }
+.head-section{
+    font-size: 2rem;
+    position: absolute;
+    top: 30%;
+    color: rgb(0, 128, 255);
+    font-weight: 400;
+    animation: textintro 3s forwards;
+}
+
+@keyframes textintro {
+    0%{right: -55%;}
+    100%{right: 5%;}
+}
+@keyframes boxintro {
+    0%{left: -55%;}
+    100%{left: 20%;}
+}
 @media (max-width: 768px) {
     .mobile-none{
         display: none !important;
@@ -58,11 +83,19 @@ body {
     .form-reserve{
         background-color: rgba(0, 0, 0, 0.292);
         backdrop-filter: blur(15px);
-        width: 60%;
+        width: 70%;
         height: auto;
         border-radius: 12px;
         position: absolute;
-        top: 40%;
+        top: 30%;
         right: 5%;
+    }
+    .head-section{
+        font-size: 1rem;
+        position: absolute;
+        top: 20%;
+        color: rgb(0, 128, 255);
+        font-weight: 400;
+        animation: textintro 3s forwards;
     }
 }
