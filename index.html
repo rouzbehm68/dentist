@@ -6,7 +6,13 @@
     <link rel="stylesheet" href="./assets/css/fontawesome/all.min.css" />
     <link rel="stylesheet" href="./assets/css/sytle.css" />
     <link href="./assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-    <script src="./assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- لینک‌های CSS -->
+    <link rel="stylesheet" href="./assets/datepicker/jalalidatepicker.css" />
+
+    <!-- کتابخانه‌های JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/datepicker/jalalidatepicker.js"></script>
   </head>
 
   <body>
@@ -39,8 +45,19 @@
     <!--navbar-->
     <nav class="navbar navbar-expand-sm bg-light navbar-light" dir="rtl">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="./assets/images/logo/logo.png" width="32" height="32" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="./assets/images/logo/logo.png"
+            width="32"
+            height="32"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -52,13 +69,21 @@
               <a class="nav-link" href="#">خدمات</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">صفحات</a>
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >صفحات</a
+              >
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">درباره ما</a></li>
                 <li><a class="dropdown-item" href="#">نوبت دهی رزرو</a></li>
                 <li><a class="dropdown-item" href="#">خرید پلن</a></li>
                 <li><a class="dropdown-item" href="#">سوالات متداول</a></li>
-                <li><a class="dropdown-item" href="#">سیاست حفظ حریم خصوصی</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">سیاست حفظ حریم خصوصی</a>
+                </li>
                 <li><a class="dropdown-item" href="#">قوانین و مقررات</a></li>
                 <li><a class="dropdown-item" href="#">خطای 404</a></li>
               </ul>
@@ -67,18 +92,56 @@
               <a class="nav-link" href="#">تماس با ما</a>
             </li>
           </ul>
-
-          
         </div>
       </div>
     </nav>
 
-
     <!--slide home -->
     <div class="section-home">
-
+      <div class="form-reserve p-4" dir="rtl">
+        <form action="#" class="row">
+          <div class="col-md-3 col-sm-12 col-lg-3 mx-2" dir="rtl">
+            <label for="email" class="text-light">
+              <i class="fa-solid fa-envelope"></i>
+              ایمیل
+            </label>
+            <input
+              class="input-request"
+              type="email"
+              placeholder="ایمیل خود را وارد نمایید"
+            />
+          </div>
+          <div class="col-md-3 col-sm-12 col-lg-3 mx-2" dir="rtl">
+            <label for="email" class="text-light">
+              <i class="fa-solid fa-phone"></i>
+              شماره تماس
+            </label>
+            <input
+              class="input-request"
+              type="tel"
+              placeholder="شماره تماس خود را وارد نمایید"
+            />
+          </div>
+          <div class="col-md-3 col-sm-12 col-lg-3 mx-2" dir="rtl">
+            <label for="email" class="text-light">
+              <i class="fa-regular fa-clock"></i>
+              تاریخ
+            </label>
+            <input
+              class="input-request"
+              data-jdp
+              placeholder="تاریخ را وارد نمایید"
+              data-jdp-min-date="1403/06/5"
+            />
+          </div>
+          <div class="col-auto btn-request" dir="rtl">
+            <input type="submit" class="btn btn-primary" value="ثبت درخواست" />
+          </div>
+        </form>
+      </div>
     </div>
 
+    <script src="./assets/js/persianDatepicker.js"></script>
     <script src="./assets/js/fontawesome/all.min.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>

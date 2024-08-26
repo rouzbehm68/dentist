@@ -25,13 +25,44 @@ body {
     height: 80vh;
     background-image: url('../images/slide-home.jpeg');
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
+.form-reserve{
+    background-color: rgba(0, 0, 0, 0.292);
+    backdrop-filter: blur(15px);
+    width: fit-content;
+    height: auto;
+    border-radius: 12px;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+.btn-request{
+    align-self: center;
+    margin-top: 2% !important;
+}
+.input-request{
+    padding: 4%;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: none;
+}
 @media (max-width: 768px) {
     .mobile-none{
         display: none !important;
+    }
+    .form-reserve{
+        background-color: rgba(0, 0, 0, 0.292);
+        backdrop-filter: blur(15px);
+        width: 60%;
+        height: auto;
+        border-radius: 12px;
+        position: absolute;
+        top: 40%;
+        right: 5%;
     }
 }
