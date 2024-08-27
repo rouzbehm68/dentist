@@ -4,9 +4,11 @@ A modern and responsive Bootstrap template for building professional websites wi
 
 **For preview:** [Click here to view the demo](https://rouzbehm68.github.io/dentist)
 
+  <div align="center">
   <img align="center" style="width: 30%;" src="https://github.com/rouzbehm68/rouzbehm68/blob/main/dentis%20(2).png?raw=true" alt="rouzbehm68" />
   <img align="center" style="width: 30%;" src="https://github.com/rouzbehm68/rouzbehm68/blob/main/dentis%20(3).png?raw=true" alt="rouzbehm68" />
   <img align="center" style="width: 30%;" src="https://github.com/rouzbehm68/rouzbehm68/blob/main/dentis%20(1).png?raw=true" alt="rouzbehm68" />
+  </div>
 
 ## Table of Contents
 
