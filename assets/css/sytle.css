@@ -95,7 +95,7 @@ body,a,p,div,h1,h2,h3,h4,h5,h6 {
 .image-section{
     position: relative;
     width: 100%;
-    animation: imasc 5s infinite;
+    animation: imasc 3s infinite;
 
 }
 .section-4{
@@ -131,6 +131,33 @@ body,a,p,div,h1,h2,h3,h4,h5,h6 {
     background-color: #4e7b74 !important;
     color: white !important;
 }
+.link-services{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.link-services:hover{
+    color: #4e7b74;
+}
+.round-btn{
+    width: 48px;
+    height: 48px;
+    align-content: center;
+    text-align: center;
+    border-radius: 100px !important;
+    background-color: #4e7b74 !important;
+    border-color: #4e7b74 !important;
+    color: aliceblue !important;
+}
+.color-def{
+    color: #4e7b74;
+    text-decoration: none;
+}
+.color-def:hover{
+    color: #4e7b74;
+    text-decoration: underline;
+}
+
 /*just animation*/
 @keyframes textintro {
     0%{right: -55%;}
@@ -155,16 +182,17 @@ body,a,p,div,h1,h2,h3,h4,h5,h6 {
         top: -1%;
     }
     50%{
-        left: 2%;
-        top: -2%;
+        left: 3%;
+        top: 3%;
     }
     75%{
         left: 1%;
-        top: -1%;
+        top: -3%;
     }
     100%{
         left: 0%;
         top: 0%;
+        scale: 1;
     }
 }
 /* responsive mobile */
