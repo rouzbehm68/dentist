@@ -157,6 +157,9 @@ body,a,p,div,h1,h2,h3,h4,h5,h6 {
     color: #4e7b74;
     text-decoration: underline;
 }
+.bg-azure{
+    background-color: azure;
+}
 
 /*just animation*/
 @keyframes textintro {
